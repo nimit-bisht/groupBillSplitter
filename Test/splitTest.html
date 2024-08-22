@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+        </title>
+    </head>
+    <body>
+        <!---->
+        <h1></h1>
+        <p></p>
+    </body>
+
+    <script>
+        fetch("travel.json")
+        .then(response => response.json())
+        .then(json =>{
+            console.log(json);
+
+            console.log("Group 1 name is   : ",json.groups[0].group_name);
+
+            console.log("Group 1 Member 1 is   : ",json.groups[0].members[0].member_name);
+            console.log("Group 1 Member 1 ID is   : ",json.groups[0].members[0].member_id);
+            console.log("Group 1 Member 1 expense 1 Name is   : ",json.groups[0].members[0].expenses[0].expense_name);
+            console.log("Group 1 Member 1 expense 1 Amount is   : ",json.groups[0].members[0].expenses[0].amount," $");
+            console.log("Group 1 Member 1 expense 2 Name is   : ",json.groups[0].members[0].expenses[1].expense_name);
+            console.log("Group 1 Member 1 expense 2 Amount is   : ",json.groups[0].members[0].expenses[1].amount," $");
+
+
+            amoutTotal1 = json.groups[0].members[0].expenses[0].amount + json.groups[0].members[0].expenses[1].amount
+
+            console.log("Group 1 Member 1 expense Total is   : ",amoutTotal1," $");
+
+
+
+
+
+            console.log("Group 1 Member 2 is   : ",json.groups[0].members[1].member_name);
+            console.log("Group 1 Member 2 ID is   : ",json.groups[0].members[1].member_id);
+            console.log("Group 1 Member 2 expense 1 Name is   : ",json.groups[0].members[1].expenses[0].expense_name);
+            console.log("Group 1 Member 2 expense 1 Amount is   : ",json.groups[0].members[1].expenses[0].amount," $");
+            console.log("Group 1 Member 2 expense 2 Name is   : ",json.groups[0].members[1].expenses[1].expense_name);
+            console.log("Group 1 Member 2 expense 2 Amount is   : ",json.groups[0].members[1].expenses[1].amount," $");
+
+            amoutTotal2 = json.groups[0].members[1].expenses[0].amount + json.groups[0].members[1].expenses[1].amount;
+            console.log("Group 1 Member 2 expense Total is   : ",amoutTotal2," $");
+
+            console.log("Group 1 Member 3 is   : ",json.groups[0].members[2].member_name);
+            console.log("Group 1 Member 3 ID is   : ",json.groups[0].members[2].member_id);
+            console.log("Group 1 Member 3 expense 1 Name is   : ",json.groups[0].members[2].expenses[0].expense_name);
+            console.log("Group 1 Member 3 expense 1 Amount is   : ",json.groups[0].members[2].expenses[0].amount," $");
+            console.log("Group 1 Member 3 expense 2 Name is   : ",json.groups[0].members[2].expenses[1].expense_name);
+            console.log("Group 1 Member 3 expense 2 Amount is   : ",json.groups[0].members[2].expenses[1].amount," $");
+
+            amoutTotal3 = json.groups[0].members[2].expenses[0].amount + json.groups[0].members[2].expenses[1].amount;
+            console.log("Group 1 Member 3 expense Total is   : ",amoutTotal3," $");
+
+            avgAmount = (amoutTotal1 + amoutTotal2 + amoutTotal3)/3;
+            member1 = avgAmount - amoutTotal1;
+            member2 = avgAmount - amoutTotal2;
+            member3 = avgAmount - amoutTotal3;
+
+            console.log("Group 1 Member 1 need to pay   : ",member1," $");
+            console.log("Group 1 Member 2 need to pay   : ",member2," $");
+            console.log("Group 1 Member 2 need to pay   : ",member3," $");
+
+
+
+
+
+            console.log("Group 2 name is   : ",json.groups[1].group_name);
+
+
+
+        }
+        );
+    </script>
+
+</html>

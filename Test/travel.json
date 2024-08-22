@@ -1,0 +1,162 @@
+{
+  "groups": [
+    {
+      "group_name": "Group 1",
+      "group_id": "1233",
+
+      "members": [
+        {
+          "member_name": "Josh",
+          "member_id": "3434",
+
+          "expenses": [
+            {
+              "expense_name": "Transportation",
+              "amount": 300.00
+            },
+            {
+              "expense_name": "Hotel",
+              "amount": 150.00
+            }
+          ]
+        },
+        {
+          "member_name": "jack",
+          "member_id": "3435",
+          "expenses": [
+            {
+              "expense_name": "Meals",
+              "amount": 50.00
+            },
+            {
+              "expense_name": "Transportation",
+              "amount": 50.00
+            }
+          ]
+        },
+        {
+          "member_name": "john",
+          "member_id": "3436",
+          "expenses": [
+            {
+              "expense_name": "Tickets",
+              "amount": 200.00
+            },
+            {
+              "expense_name": "Gift",
+              "amount": 70.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "Group 2",
+      "members": [
+        {
+          "member_name": "john",
+          "member_id": "3436",
+          "expenses": [
+            {
+              "expense_name": "Tickets",
+              "amount": 200.00
+            },
+            {
+              "expense_name": "Gift",
+              "amount": 70.00
+            }
+          ]
+        },
+        {
+          "member_name": "Josh",
+          "member_id": "3437",
+          "expenses": [
+            {
+              "expense_name": "Gift",
+              "amount": 250.00
+            },
+            {
+              "expense_name": "Food",
+              "amount": 125.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "Group 3",
+      "members": [
+        {
+          "member_name": "john",
+          "member_id": "3438",
+          "expenses": [
+            {
+              "expense_name": "Tickets",
+              "amount": 230.00
+            },
+            {
+              "expense_name": "Gift",
+              "amount": 70.00
+            }
+          ]
+        },
+        {
+          "member_name": "jab",
+          "member_id": "3439",
+          "expenses": [
+            {
+              "expense_name": "Gift",
+              "amount": 250.00
+            },
+            {
+              "expense_name": "Food",
+              "amount": 100.00
+            }
+          ]
+        },  {
+          "member_name": "Josh",
+          "member_id": "3441",
+
+          "expenses": [
+            {
+              "expense_name": "Transportation",
+              "amount": 300.00
+            },
+            {
+              "expense_name": "Hotel",
+              "amount": 150.00
+            }
+          ]
+        },
+        {
+          "member_name": "jack",
+          "member_id": "3445",
+          "expenses": [
+            {
+              "expense_name": "Meals",
+              "amount": 50.00
+            },
+            {
+              "expense_name": "Transportation",
+              "amount": 50.00
+            }
+          ]
+        },
+        {
+          "member_name": "alex",
+          "member_id": "3446",
+          "expenses": [
+            {
+              "expense_name": "Tickets",
+              "amount": 200.00
+            },
+            {
+              "expense_name": "Gift",
+              "amount": 50.00
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
